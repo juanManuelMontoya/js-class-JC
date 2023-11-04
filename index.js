@@ -40,9 +40,20 @@ do {
 
   miArreglo.push("Colombia");
 
+  miArreglo.pop();
+
   console.log(miArreglo.indexOf(2000)); //1
 
   console.log(miArreglo[1]);
+
+
+  const set = new Set();
+
+  set.add(12); //borra
+  set.add(13);
+  set.add(14);
+
+  set.delete(1);
 
   //miArreglo.length = 3
   // maxima mosicion 2
@@ -78,4 +89,13 @@ if("carro" === "carro"){
 if (1 !== 1) {
     alert("si");
 }
+
+let carro = ()=>{
+    if(2==2){
+      return true;
+    }
+    return false;
+};
+
+let carro2 = () => 3==2;
  
